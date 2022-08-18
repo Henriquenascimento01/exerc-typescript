@@ -55,7 +55,7 @@ export default class Message {
         );
         console.log(message.message);
 
-        console.log();
+        console.log("\n");
         console.log("--------------");
       });
     }

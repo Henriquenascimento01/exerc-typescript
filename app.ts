@@ -38,7 +38,7 @@ async function app() {
           break;
         }
 
-        let validatedUser = User.valideUser(code);
+        let validatedUser = User.valideExists(code);
 
         if (validatedUser === false) {
           console.log("Usuário existente");

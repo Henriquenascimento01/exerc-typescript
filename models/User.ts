@@ -8,7 +8,7 @@ export default class User {
   }
   static allUsers: User[] = [];
 
-  static valideUser(code: number) {
+  static valideExists(code: number) {
     let userExists = User.allUsers.find((user) => user.code === code);
 
     if (userExists !== undefined) {
