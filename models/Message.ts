@@ -144,4 +144,3 @@ export default class Message {
     console.log(Message.allMessages);
   }
 }
-

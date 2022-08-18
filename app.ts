@@ -24,7 +24,7 @@ async function app() {
 
     optionMenu = readLineSync.question("");
 
-    switch (optionMenu) { 
+    switch (optionMenu) {
       case menu.Cadastro:
         console.log("Digite um nome: ");
         let name = readLineSync.question();
