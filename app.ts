@@ -51,7 +51,7 @@ async function app() {
         break;
 
       case menu.Mensagem:
-        await Message.createMessage();
+        await Message.create();
 
         break;
 

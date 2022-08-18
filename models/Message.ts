@@ -61,7 +61,7 @@ export default class Message {
     }
   }
 
-  static async createMessage() {
+  static async create() {
     console.log(
       "Deseja enviar uma mensagem apimentada ? Digite 1 para SIM e 2 para NAO"
     );
