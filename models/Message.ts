@@ -88,7 +88,7 @@ export default class Message {
     let chosenRecipientUsercode: number = parseInt(readLineSync.question());
 
     if (chosenRecipientUsercode === chosenSenderUsercode) {
-      console.log("Não é possivel enviar uma menssagem para o mesmo usuário");
+      console.log("Não é possivel enviar uma mensagem para o mesmo usuário");
       return;
     }
 

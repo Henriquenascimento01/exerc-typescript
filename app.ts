@@ -24,7 +24,7 @@ async function app() {
 
     optionMenu = readLineSync.question("");
 
-    switch (optionMenu) {
+    switch (optionMenu) { 
       case menu.Cadastro:
         console.log("Digite um nome: ");
         let name = readLineSync.question();
@@ -64,7 +64,7 @@ async function app() {
         break;
 
       default:
-        console.log("Vou falar uma vez só! Digite uma das opções abaixo \n");
+        console.log("Por favor digite somente alguma das opções abaixo \n");
     }
   }
 }
