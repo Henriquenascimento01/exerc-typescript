@@ -61,7 +61,7 @@ export default class Message {
     }
   }
 
-  static async create() {
+  static create() {
     console.log(
       "Deseja enviar uma mensagem apimentada ? Digite 1 para SIM e 2 para NAO"
     );
@@ -103,6 +103,14 @@ export default class Message {
 
     console.log(recipientUser);
 
+    this.sendMessage(senderUser, recipientUser, chilliMessage )
+  }
+
+  static async sendMessage(
+    senderUser: User,
+    recipientUser: User,
+    chilliMessage: number
+  ) {
     let messageSubject: string = "";
 
     while (messageSubject === "") {
