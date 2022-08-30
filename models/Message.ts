@@ -103,10 +103,10 @@ export default class Message {
 
     console.log(recipientUser);
 
-    this.sendMessage(senderUser, recipientUser, chilliMessage )
+    this.send(senderUser, recipientUser, chilliMessage);
   }
 
-  static async sendMessage(
+  static async send(
     senderUser: User,
     recipientUser: User,
     chilliMessage: number
@@ -152,3 +152,4 @@ export default class Message {
     console.log(Message.allMessages);
   }
 }
+
